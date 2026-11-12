@@ -35,6 +35,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular
+        working-directory: oncointervencion
         run: npx ng build --configuration production --base-href /Oncointervencion/
 
       - name: Configure GitHub Pages
