@@ -111,35 +111,35 @@ export class QuienesSomosComponent {
       specialty: 'Radiología Intervencionista',
       description: 'Especialista en procedimientos mínimamente invasivos guiados por imagen. Apasionada por la innovación terapéutica y el cuidado integral del paciente oncológico.',
       formation: 'Especialidad en Radiología e Imagen · Subespecialidad en Radiología Intervencionista',
-      imageUrl: '/images/Karen 1.jpg'
+      imageUrl: 'images/Karen 1.jpg'
     },
     {
       name: 'Dra. Ana María Guadalupe Ibarra Morales',
       specialty: 'Cirugía Oncológica',
       description: 'Cirujana oncóloga dedicada al tratamiento integral de tumores benignos y malignos con enfoque multidisciplinario y humanístico en cada caso.',
       formation: 'Especialidad en Cirugía General · Subespecialidad en Oncología Quirúrgica',
-      imageUrl: '/images/Karen 4.jpg'
+      imageUrl: 'images/Karen 4.jpg'
     },
     {
       name: 'Dr. Luis Enrique Santillán Bautista',
       specialty: 'Cirugía Gastrointestinal',
       description: 'Cirujano especialista en patología del aparato digestivo. Experto en técnicas laparoscópicas avanzadas que favorecen una recuperación rápida y segura.',
       formation: 'Especialidad en Cirugía General · Subespecialidad en Cirugía Gastrointestinal',
-      imageUrl: '/images/Amaury 3.jpg'
+      imageUrl: 'images/Amaury 3.jpg'
     },
     {
       name: 'Dr. Amaury Joazeem Vicente',
       specialty: 'Cirugía General y Oncológica',
       description: 'Médico cirujano con amplia formación en cirugía general y oncológica. Comprometido con ofrecer diagnósticos precisos y soluciones quirúrgicas personalizadas.',
       formation: 'Especialidad en Cirugía General · Formación en Cirugía Oncológica',
-      imageUrl: '/images/Amaury 2.jpg'
+      imageUrl: 'images/Amaury 2.jpg'
     },
     {
       name: 'Dra. Lourdes E. Rodríguez Barreto',
       specialty: 'Atención dental del paciente con cáncer',
       description: 'Especialista en odontología oncológica, enfocada en prevenir y tratar las complicaciones bucales derivadas de la quimioterapia y radioterapia, así como en la rehabilitación protésica maxilofacial para preservar la calidad de vida del paciente oncológico.',
       formation: 'Prótesis Maxilofacial y Odontología Oncológica',
-      imageUrl: '/images/Lula.jpeg'
+      imageUrl: 'images/Lula.jpeg'
     }
   ];
 

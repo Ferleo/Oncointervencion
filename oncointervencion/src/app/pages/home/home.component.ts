@@ -274,31 +274,31 @@ export class HomeComponent implements OnInit {
     {
       title: 'Nuestro Enfoque',
       subtitle: 'Atención integral centrada en el paciente y su bienestar',
-      imageUrl: '/images/Sala de Hemodinamia.jpg',
+      imageUrl: 'images/Sala de Hemodinamia.jpg',
       tag: '01'
     },
     {
       title: 'Tecnología Especializada',
       subtitle: 'Equipamiento de vanguardia para diagnósticos precisos y tratamientos seguros',
-      imageUrl: '/images/Sala de hemodinamia 2.jpg',
+      imageUrl: 'images/Sala de hemodinamia 2.jpg',
       tag: '02'
     },
     {
       title: 'Equipo Multidisciplinario',
       subtitle: 'Cirujanos, oncólogos y radiólogos trabajando coordinados por tu salud',
-      imageUrl: '/images/Juntos 1.jpg',
+      imageUrl: 'images/Juntos 1.jpg',
       tag: '03'
     },
     {
       title: 'Precisión y Confianza',
       subtitle: 'Cada procedimiento ejecutado con rigor clínico y evidencia científica',
-      imageUrl: '/images/Juntos 2.jpg',
+      imageUrl: 'images/Juntos 2.jpg',
       tag: '04'
     },
     {
       title: 'Innovación Médica',
       subtitle: 'Procedimientos mínimamente invasivos que aceleran tu recuperación',
-      imageUrl: '/images/Sala de Hemodinamia.jpg',
+      imageUrl: 'images/Sala de Hemodinamia.jpg',
       tag: '05'
     }
   ];
