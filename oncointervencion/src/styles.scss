@@ -1,0 +1,241 @@
+@use 'bootstrap' as *;
+
+$morado: #6c3483;
+$gris-fondo: #f8f9fa;
+$gris-seccion: #f3f3f7;
+$gris-borde: #e5e5e5;
+$negro: #23272f;
+$texto: #23272f;
+$muted: #b0b4ba;
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: $gris-fondo;
+	color: $texto;
+	font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+	font-size: 18px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.main-layout {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: $gris-fondo;
+}
+
+.main {
+	flex: 1 0 auto;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $negro;
+	font-weight: 700;
+	margin: 0 0 1.2rem 0;
+	letter-spacing: -0.02em;
+}
+h1 {
+	font-size: 2.7rem;
+	line-height: 1.1;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.3rem;
+}
+
+a {
+	color: $morado;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+a:hover, a:focus {
+	color: darken($morado, 10%);
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 0.5rem;
+}
+
+section {
+	margin-bottom: 3rem;
+	padding: 2.5rem 0;
+	background: $gris-seccion;
+	border-radius: 1.5rem;
+	box-shadow: 0 2px 16px rgba(35, 39, 47, 0.04);
+}
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+}
+
+/* Cards estilo oncointervencion.com */
+.card, .especialidad-card {
+	background: #fff;
+	border: 1px solid $gris-borde;
+	border-radius: 1.2rem;
+	box-shadow: 0 2px 16px rgba(35, 39, 47, 0.06);
+	padding: 2rem 1.5rem;
+	margin-bottom: 2rem;
+	transition: box-shadow 0.2s, transform 0.2s;
+	text-align: center;
+}
+.card:hover, .especialidad-card:hover {
+	box-shadow: 0 8px 32px rgba(108, 52, 131, 0.13);
+	transform: translateY(-2px) scale(1.01);
+	border-color: $morado;
+}
+.especialidad-icon {
+	font-size: 2.5rem;
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+input, textarea, select {
+	border: 1px solid $gris-borde;
+	border-radius: 0.5rem;
+	padding: 0.75rem 1rem;
+	font-size: 1rem;
+	background: #fff;
+	color: $texto;
+	margin-bottom: 1.2rem;
+	outline: none;
+	transition: border-color 0.2s;
+}
+input:focus, textarea:focus, select:focus {
+	border-color: $morado;
+}
+label {
+	font-size: 1rem;
+	color: $negro;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+}
+button, .btn, .btn-primary {
+	background: $morado;
+	color: #fff;
+	border: none;
+	border-radius: 0.7rem;
+	padding: 0.75rem 2rem;
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	box-shadow: none;
+	transition: background 0.2s, box-shadow 0.2s;
+	text-transform: uppercase;
+}
+button:hover, .btn:hover, .btn-primary:hover, button:focus, .btn:focus {
+	background: darken($morado, 8%);
+	color: #fff;
+}
+
+/* Navbar estilo oncointervencion.com */
+.navbar {
+	background: #fff;
+	border-bottom: 1px solid $gris-borde;
+	box-shadow: 0 2px 8px rgba(35, 39, 47, 0.03);
+	padding: 0.7rem 0;
+}
+.navbar-brand {
+	font-weight: 700;
+	color: $morado;
+	font-size: 1.5rem;
+	letter-spacing: -0.01em;
+}
+.nav-link {
+	color: $negro;
+	font-weight: 500;
+	margin-right: 1.2rem;
+	font-size: 1.08rem;
+	opacity: 0.85;
+}
+.nav-link.active, .nav-link:focus, .nav-link:hover {
+	color: $morado;
+	opacity: 1;
+}
+.dropdown-menu {
+	border-radius: 0.7rem;
+	box-shadow: 0 4px 24px rgba(35, 39, 47, 0.08);
+	border: none;
+	min-width: 200px;
+}
+.dropdown-item {
+	font-size: 1rem;
+	color: $negro;
+	border-radius: 0.5rem;
+	margin: 0.1rem 0;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+	background: $gris-seccion;
+	color: $morado;
+}
+
+/* Footer estilo oncointervencion.com */
+.footer {
+	background: $gris-seccion;
+	color: $muted;
+	font-size: 1rem;
+	border-top: 1px solid $gris-borde;
+	padding: 2rem 0 1.2rem 0;
+	margin-top: auto;
+	text-align: center;
+}
+.footer a {
+	color: $morado;
+	text-decoration: none;
+	margin: 0 0.5rem;
+	font-weight: 500;
+	opacity: 0.8;
+}
+.footer a:hover {
+	color: darken($morado, 10%);
+	opacity: 1;
+	text-decoration: underline;
+}
+
+/* Responsive minimal adjustments */
+@media (max-width: 991.98px) {
+	.container {
+		max-width: 98vw;
+		padding: 0 1rem;
+	}
+	.navbar .nav-link {
+		margin-right: 0.7rem;
+	}
+}
+@media (max-width: 767.98px) {
+	.main {
+		padding-top: 1.2rem;
+		padding-bottom: 1.2rem;
+	}
+	section {
+		padding: 1.2rem 0;
+		margin-bottom: 2rem;
+	}
+	.navbar {
+		padding: 0.2rem 0;
+	}
+}
+@media (max-width: 575.98px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+	h2 {
+		font-size: 1.1rem;
+	}
+	.footer {
+		font-size: 0.85rem;
+		padding: 1rem 0.5rem;
+	}
+}

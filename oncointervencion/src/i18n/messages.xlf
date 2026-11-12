@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8433768950518578342" datatype="html">
+        <source>Contacto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contacto/contacto.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3345255071108864416" datatype="html">
+        <source>Formulario de contacto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contacto/contacto.component.ts</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5900924395667778816" datatype="html">
+        <source>Especialidades</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/especialidades/especialidades.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4734074745139550409" datatype="html">
+        <source>Sección de especialidades</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/especialidades/especialidades.component.ts</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7573318772166422572" datatype="html">
+        <source>¿Quiénes somos?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/quienes-somos/quienes-somos.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/quienes-somos/quienes-somos-home.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1254434530915163959" datatype="html">
+        <source>Información sobre el equipo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/quienes-somos/quienes-somos.component.ts</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="130445558377768208" datatype="html">
+        <source>Nuestros Aliados</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/aliados/aliados-home.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5294013104684079781" datatype="html">
+        <source>Trabajamos en conjunto con instituciones y especialistas comprometidos con la salud y el bienestar de nuestros pacientes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/aliados/aliados-home.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5952658735763058093" datatype="html">
+        <source>Contáctanos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/contacto/contacto-home.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5357661269973482487" datatype="html">
+        <source>Nombre</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/contacto/contacto-home.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4768749765465246664" datatype="html">
+        <source>Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/contacto/contacto-home.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6181392829528060012" datatype="html">
+        <source>Mensaje</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/contacto/contacto-home.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1896093879997026163" datatype="html">
+        <source>Enviar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/contacto/contacto-home.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5205879331543680719" datatype="html">
+        <source> ¡Mensaje enviado con éxito! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/contacto/contacto-home.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8895656678316945862" datatype="html">
+        <source>Especialidades principales</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/especialidades/especialidades-home.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4680759966025770913" datatype="html">
+        <source>© 2026 OncoIntervención Especializada</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8790918354594417962" datatype="html">
+        <source>Facebook</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3080109816219994129" datatype="html">
+        <source>Instagram</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7539372158573018213" datatype="html">
+        <source>Tiktok</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8464454646396390923" datatype="html">
+        <source>Aviso COFEPRIS 2509082002A00116</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.ts</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2881365840081149696" datatype="html">
+        <source>Cirugía y diagnóstico con un enfoque humano</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/hero/hero.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2377929665874277168" datatype="html">
+        <source>Atención integral desde el diagnóstico hasta el tratamiento, combinando experiencia y tecnología avanzada para tu bienestar.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/hero/hero.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1092080185010910166" datatype="html">
+        <source>¡Agenda tu consulta!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/hero/hero.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1496845058821520098" datatype="html">
+        <source>OncoIntervención</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1926157928707021468" datatype="html">
+        <source>Inicio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2758184918783841306" datatype="html">
+        <source> Servicios </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8735549703481409024" datatype="html">
+        <source>Consulta</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3653926840909464397" datatype="html">
+        <source>Cirugía Gastrointestinal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2218041727317451604" datatype="html">
+        <source>Cirugía Oncológica</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3862222236362668626" datatype="html">
+        <source>Radiología Intervencionista</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3295062039726792182" datatype="html">
+        <source>Aviso Legal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3845752420036544058" datatype="html">
+        <source>Somos un equipo de médicos especializados con enfoque humano que ofrecemos atención integral desde el diagnóstico hasta el tratamiento.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/quienes-somos/quienes-somos-home.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4229134729407552001" datatype="html">
+        <source>Combinamos la experiencia en cirugía general, oncológica y radiología intervencionista para abordar una terapia completa, reducir riesgos y lograr una recuperación más favorable.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/quienes-somos/quienes-somos-home.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

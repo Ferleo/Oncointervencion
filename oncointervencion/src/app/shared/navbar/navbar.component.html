@@ -1,0 +1,170 @@
+<!-- ============================================================
+     NAVBAR — Sticky, scroll-aware, mobile-responsive
+     ============================================================ -->
+<nav
+  role="navigation"
+  aria-label="Menú principal"
+  class="navbar-root"
+  [class.scrolled]="isScrolled()">
+
+  <div class="nav-inner">
+
+    <!-- ── LOGO ── -->
+    <a routerLink="/" (click)="closeAll()" class="nav-brand" aria-label="OncoIntervención — Ir al inicio">
+      <span class="nav-brand-icon" aria-hidden="true">
+        <!-- Medical cross SVG -->
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-7 14H9v-4H5v-3h4V6h3v4h4v3h-4v4z"/>
+        </svg>
+      </span>
+      <span class="nav-brand-text">
+        Onco<span class="nav-brand-accent">Intervención</span>
+      </span>
+    </a>
+
+    <!-- ── DESKTOP NAV ── -->
+    <div class="nav-desktop" role="menubar">
+
+      <a routerLink="/"
+         routerLinkActive="nav-link-active"
+         [routerLinkActiveOptions]="{ exact: true }"
+         (click)="closeAll()"
+         class="nav-link"
+         role="menuitem">Inicio</a>
+
+      <!-- Servicios dropdown -->
+      <div class="nav-dropdown-wrapper" (click)="$event.stopPropagation()">
+        <button
+          (click)="toggleServicios($event)"
+          class="nav-link nav-dropdown-trigger"
+          [class.nav-link-active]="serviciosOpen()"
+          aria-haspopup="true"
+          [attr.aria-expanded]="serviciosOpen()"
+          role="menuitem">
+          Servicios
+          <svg class="nav-chevron" [class.rotated]="serviciosOpen()"
+               width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+
+        @if (serviciosOpen()) {
+          <div @fadeDown class="nav-dropdown" role="menu" aria-label="Servicios">
+            @for (link of serviciosLinks; track link.route) {
+              <a [routerLink]="link.route"
+                 routerLinkActive="dropdown-item-active"
+                 (click)="closeAll()"
+                 class="dropdown-item"
+                 role="menuitem">
+                {{ link.label }}
+              </a>
+            }
+          </div>
+        }
+      </div>
+
+      <a routerLink="/quienes-somos"
+         routerLinkActive="nav-link-active"
+         (click)="closeAll()"
+         class="nav-link"
+         role="menuitem">¿Quiénes somos?</a>
+
+      <a routerLink="/preguntas"
+         routerLinkActive="nav-link-active"
+         (click)="closeAll()"
+         class="nav-link"
+         role="menuitem">Preguntas</a>
+
+      <a routerLink="/contacto"
+         (click)="closeAll()"
+         class="nav-cta"
+         role="menuitem">
+        Contáctanos
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- ── HAMBURGER ── -->
+    <button
+      (click)="toggleMobile()"
+      class="nav-hamburger"
+      [attr.aria-expanded]="mobileOpen()"
+      aria-controls="mobile-menu"
+      aria-label="Abrir menú de navegación">
+      @if (mobileOpen()) {
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      } @else {
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      }
+    </button>
+  </div>
+
+  <!-- ── MOBILE MENU ── -->
+  @if (mobileOpen()) {
+    <div @slideDown id="mobile-menu" class="nav-mobile" role="menu" aria-label="Menú móvil">
+
+      <a routerLink="/"
+         routerLinkActive="mobile-link-active"
+         [routerLinkActiveOptions]="{ exact: true }"
+         (click)="closeAll()"
+         class="mobile-link"
+         role="menuitem">Inicio</a>
+
+      <!-- Mobile Servicios accordion -->
+      <div>
+        <button
+          (click)="toggleServicios($event)"
+          class="mobile-link mobile-dropdown-btn"
+          [attr.aria-expanded]="serviciosOpen()">
+          Servicios
+          <svg class="nav-chevron" [class.rotated]="serviciosOpen()"
+               width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+
+        @if (serviciosOpen()) {
+          <div @slideDown class="mobile-sub-list" role="group">
+            @for (link of serviciosLinks; track link.route) {
+              <a [routerLink]="link.route"
+                 routerLinkActive="mobile-sub-active"
+                 (click)="closeAll()"
+                 class="mobile-sub-link"
+                 role="menuitem">
+                <svg width="6" height="6" viewBox="0 0 6 6" fill="#2563eb" aria-hidden="true"><circle cx="3" cy="3" r="3"/></svg>
+                {{ link.label }}
+              </a>
+            }
+          </div>
+        }
+      </div>
+
+      <a routerLink="/quienes-somos"
+         routerLinkActive="mobile-link-active"
+         (click)="closeAll()"
+         class="mobile-link"
+         role="menuitem">¿Quiénes somos?</a>
+
+      <a routerLink="/preguntas"
+         routerLinkActive="mobile-link-active"
+         (click)="closeAll()"
+         class="mobile-link"
+         role="menuitem">Preguntas</a>
+
+      <a routerLink="/contacto"
+         (click)="closeAll()"
+         class="mobile-link mobile-cta"
+         role="menuitem">Contáctanos →</a>
+
+      <div class="mobile-footer-note">
+        <small>Atención: 8:00 am – 8:00 pm · <a href="tel:5519722944">55 1972 2944</a></small>
+      </div>
+    </div>
+  }
+</nav>

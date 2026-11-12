@@ -1,0 +1,16 @@
+<section class="especialidades-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-4" i18n>Especialidades principales</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4 mb-4" *ngFor="let esp of especialidades; trackBy: trackByRuta">
+          <a [routerLink]="['/especialidades', esp.ruta]" routerLinkActive="router-link-active" class="card h-100 shadow-sm text-center p-4 especialidad-card">
+            <div class="mb-3">
+              <span class="especialidad-icon">{{ esp.icono }}</span>
+            </div>
+            <h3 class="h5 mb-2">{{ esp.nombre }}</h3>
+            <p class="mb-0">{{ esp.descripcion }}</p>
+          </a>
+        </div>
+    </div>
+  </div>
+</section>

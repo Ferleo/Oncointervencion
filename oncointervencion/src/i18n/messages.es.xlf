@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8433768950518578342" datatype="html"><source>Contacto</source><target>Contacto</target></trans-unit>
+      <trans-unit id="3345255071108864416" datatype="html"><source>Formulario de contacto</source><target>Formulario de contacto</target></trans-unit>
+      <trans-unit id="5900924395667778816" datatype="html"><source>Especialidades</source><target>Especialidades</target></trans-unit>
+      <trans-unit id="4734074745139550409" datatype="html"><source>Sección de especialidades</source><target>Sección de especialidades</target></trans-unit>
+      <trans-unit id="7573318772166422572" datatype="html"><source>¿Quiénes somos?</source><target>¿Quiénes somos?</target></trans-unit>
+      <trans-unit id="1254434530915163959" datatype="html"><source>Información sobre el equipo</source><target>Información sobre el equipo</target></trans-unit>
+      <trans-unit id="130445558377768208" datatype="html"><source>Nuestros Aliados</source><target>Nuestros Aliados</target></trans-unit>
+      <trans-unit id="5294013104684079781" datatype="html"><source>Trabajamos en conjunto con instituciones y especialistas comprometidos con la salud y el bienestar de nuestros pacientes.</source><target>Trabajamos en conjunto con instituciones y especialistas comprometidos con la salud y el bienestar de nuestros pacientes.</target></trans-unit>
+      <trans-unit id="5952658735763058093" datatype="html"><source>Contáctanos</source><target>Contáctanos</target></trans-unit>
+      <trans-unit id="5357661269973482487" datatype="html"><source>Nombre</source><target>Nombre</target></trans-unit>
+      <trans-unit id="4768749765465246664" datatype="html"><source>Email</source><target>Email</target></trans-unit>
+      <trans-unit id="6181392829528060012" datatype="html"><source>Mensaje</source><target>Mensaje</target></trans-unit>
+      <trans-unit id="1896093879997026163" datatype="html"><source>Enviar</source><target>Enviar</target></trans-unit>
+      <trans-unit id="5205879331543680719" datatype="html"><source> ¡Mensaje enviado con éxito! </source><target>¡Mensaje enviado con éxito!</target></trans-unit>
+      <trans-unit id="8895656678316945862" datatype="html"><source>Especialidades principales</source><target>Especialidades principales</target></trans-unit>
+      <trans-unit id="4680759966025770913" datatype="html"><source>© 2026 OncoIntervención Especializada</source><target>© 2026 OncoIntervención Especializada</target></trans-unit>
+      <trans-unit id="8790918354594417962" datatype="html"><source>Facebook</source><target>Facebook</target></trans-unit>
+      <trans-unit id="3080109816219994129" datatype="html"><source>Instagram</source><target>Instagram</target></trans-unit>
+      <trans-unit id="7539372158573018213" datatype="html"><source>Tiktok</source><target>Tiktok</target></trans-unit>
+      <trans-unit id="8464454646396390923" datatype="html"><source>Aviso COFEPRIS 2509082002A00116</source><target>Aviso COFEPRIS 2509082002A00116</target></trans-unit>
+      <trans-unit id="2881365840081149696" datatype="html"><source>Cirugía y diagnóstico con un enfoque humano</source><target>Cirugía y diagnóstico con un enfoque humano</target></trans-unit>
+      <trans-unit id="2377929665874277168" datatype="html"><source>Atención integral desde el diagnóstico hasta el tratamiento, combinando experiencia y tecnología avanzada para tu bienestar.</source><target>Atención integral desde el diagnóstico hasta el tratamiento, combinando experiencia y tecnología avanzada para tu bienestar.</target></trans-unit>
+      <trans-unit id="1092080185010910166" datatype="html"><source>¡Agenda tu consulta!</source><target>¡Agenda tu consulta!</target></trans-unit>
+      <trans-unit id="1496845058821520098" datatype="html"><source>OncoIntervención</source><target>OncoIntervención</target></trans-unit>
+      <trans-unit id="1926157928707021468" datatype="html"><source>Inicio</source><target>Inicio</target></trans-unit>
+      <trans-unit id="2758184918783841306" datatype="html"><source> Servicios </source><target>Servicios</target></trans-unit>
+      <trans-unit id="8735549703481409024" datatype="html"><source>Consulta</source><target>Consulta</target></trans-unit>
+      <trans-unit id="3653926840909464397" datatype="html"><source>Cirugía Gastrointestinal</source><target>Cirugía Gastrointestinal</target></trans-unit>
+      <trans-unit id="2218041727317451604" datatype="html"><source>Cirugía Oncológica</source><target>Cirugía Oncológica</target></trans-unit>
+      <trans-unit id="3862222236362668626" datatype="html"><source>Radiología Intervencionista</source><target>Radiología Intervencionista</target></trans-unit>
+      <trans-unit id="3295062039726792182" datatype="html"><source>Aviso Legal</source><target>Aviso Legal</target></trans-unit>
+      <trans-unit id="3845752420036544058" datatype="html"><source>Somos un equipo de médicos especializados con enfoque humano que ofrecemos atención integral desde el diagnóstico hasta el tratamiento.</source><target>Somos un equipo de médicos especializados con enfoque humano que ofrecemos atención integral desde el diagnóstico hasta el tratamiento.</target></trans-unit>
+      <trans-unit id="4229134729407552001" datatype="html"><source>Combinamos la experiencia en cirugía general, oncológica y radiología intervencionista para abordar una terapia completa, reducir riesgos y lograr una recuperación más favorable.</source><target>Combinamos la experiencia en cirugía general, oncológica y radiología intervencionista para abordar una terapia completa, reducir riesgos y lograr una recuperación más favorable.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

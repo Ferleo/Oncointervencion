@@ -1,0 +1,85 @@
+/* ── Page Hero ─────────────────────────────────────────────── */
+.page-hero-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 7rem;
+  padding-bottom: 3.5rem;
+}
+
+.page-hero-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.025em;
+  margin: 0.75rem 0 1rem;
+}
+
+.page-hero-subtitle {
+  font-size: 1.0625rem;
+  color: rgba(255,255,255,0.72);
+  max-width: 540px;
+  line-height: 1.8;
+}
+
+/* ── Service tabs nav ─────────────────────────────────────── */
+.service-nav {
+  background: #fff;
+  position: sticky;
+  top: 4.5rem; /* navbar height */
+  z-index: 40;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 2px 12px rgba(30,58,138,0.05);
+}
+
+.service-nav-inner {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  gap: 0;
+}
+
+.service-nav-inner::-webkit-scrollbar { display: none; }
+
+.service-tab {
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #64748b;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  white-space: nowrap;
+  transition: color 0.15s, border-color 0.15s;
+  flex-shrink: 0;
+}
+
+.service-tab:hover {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.tab-active {
+  color: #1d4ed8;
+  border-bottom-color: #1d4ed8;
+}
+
+.tab-short { display: none; }
+
+@media (max-width: 768px) {
+  .tab-long  { display: none; }
+  .tab-short { display: block; }
+  .service-tab { padding: 0.875rem 1rem; font-size: 0.8125rem; }
+}
+
+/* ── Content outlet ──────────────────────────────────────── */
+.service-outlet {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+}
+
+@media (max-width: 768px) {
+  .service-outlet { padding: 2rem 1.25rem 3rem; }
+}

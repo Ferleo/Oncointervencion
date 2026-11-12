@@ -1,0 +1,176 @@
+/* ── Page hero ─────────────────────────────────────────────── */
+.pq-hero-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 7rem;
+  padding-bottom: 3.5rem;
+}
+
+.pq-hero-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.025em;
+  margin: 0.75rem 0 1rem;
+}
+
+.pq-hero-subtitle {
+  font-size: 1.0625rem;
+  color: rgba(255,255,255,0.72);
+  max-width: 520px;
+  line-height: 1.8;
+}
+
+/* ── Layout ────────────────────────────────────────────────── */
+.pq-content {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+
+@media (max-width: 768px) {
+  .pq-content { padding-top: 2.5rem; gap: 3rem; }
+}
+
+/* ── FAQ header ────────────────────────────────────────────── */
+.pq-faq-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pq-faq-header { margin-bottom: 0.5rem; }
+
+/* ── Accordion ─────────────────────────────────────────────── */
+.pq-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+::ng-deep .pq-accordion .pq-panel {
+  border-radius: 1rem !important;
+  border: 1px solid #e2e8f0 !important;
+  box-shadow: 0 2px 8px rgba(30,58,138,0.04) !important;
+  overflow: hidden;
+  margin: 0 !important;
+}
+
+::ng-deep .pq-accordion .pq-panel.mat-expanded {
+  border-color: #bfdbfe !important;
+  box-shadow: 0 4px 20px rgba(29,78,216,0.08) !important;
+}
+
+::ng-deep .pq-accordion .mat-expansion-panel-header {
+  padding: 1.25rem 1.5rem !important;
+  min-height: unset !important;
+  height: auto !important;
+}
+
+::ng-deep .pq-accordion .mat-expansion-panel-header:hover {
+  background: #eff6ff !important;
+}
+
+::ng-deep .pq-accordion .mat-expansion-panel-header.mat-expanded {
+  background: linear-gradient(90deg, #eff6ff, #fff) !important;
+}
+
+::ng-deep .pq-accordion .mat-expansion-indicator::after {
+  color: #1d4ed8;
+}
+
+.pq-question {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.5;
+}
+
+::ng-deep .pq-accordion .mat-panel-title {
+  flex-grow: 1;
+}
+
+.pq-answer {
+  font-size: 0.9375rem;
+  color: #475569;
+  line-height: 1.8;
+  margin: 0;
+  padding-bottom: 0.25rem;
+}
+
+::ng-deep .pq-accordion .mat-expansion-panel-body {
+  padding: 0.5rem 1.5rem 1.375rem !important;
+}
+
+/* ── CTA card ──────────────────────────────────────────────── */
+.pq-cta-section {}
+
+.pq-cta-card {
+  background: linear-gradient(135deg, #1d4ed8, #1e3a8a);
+  border-radius: 1.5rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+@media (max-width: 640px) {
+  .pq-cta-card { padding: 2rem; }
+}
+
+.pq-cta-icon {
+  width: 3.25rem;
+  height: 3.25rem;
+  background: rgba(255,255,255,0.12);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #93c5fd;
+}
+
+.pq-cta-title {
+  font-size: 1.375rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+}
+
+.pq-cta-text {
+  font-size: 0.9375rem;
+  color: rgba(255,255,255,0.72);
+  line-height: 1.75;
+  margin: 0;
+}
+
+.pq-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.btn-outline-phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-radius: 0.75rem;
+  color: #fff;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.btn-outline-phone:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.7);
+}
