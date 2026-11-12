@@ -31,6 +31,7 @@ jobs:
           cache: npm
 
       - name: Install dependencies
+        working-directory: oncointervencion
         run: npm ci
 
       - name: Build Angular
@@ -40,12 +41,12 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Prepare SPA fallback
-        run: cp dist/oncointervencion/browser/index.html dist/oncointervencion/browser/404.html
+        run: cp oncointervencion/dist/oncointervencion/browser/index.html oncointervencion/dist/oncointervencion/browser/404.html
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/oncointervencion/browser
+          path: oncointervencion/dist/oncointervencion/browser
 
   deploy:
     environment:
